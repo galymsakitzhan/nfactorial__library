@@ -10,10 +10,10 @@ var swiper = new Swiper(".books-slider", {
     0: {
       slidesPerView: 1,
     },
-    768: {
+    300: {
       slidesPerView: 2,
     },
-    1024: {
+    700: {
       slidesPerView: 3,
     },
   },
