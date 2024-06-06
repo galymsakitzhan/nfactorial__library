@@ -1,0 +1,208 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header_container{
+    height: 70px;
+    background-color: #1B2845; 
+    display: flex;
+    padding: 0 70px 0 70px;
+    justify-content: space-between;
+    /* border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px; */
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.header_container .logo{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.header_container .logo img{
+    height: 70%;
+    border-radius: 5px;
+}
+
+
+.header_container .search {
+    margin-top: 15px;
+    height: 40px;
+    border-radius: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+    width: 300px;
+    font-size: 16px;
+}
+
+.header_container .nav__bar{
+    display: flex;
+    align-items: center;
+}
+
+.header_container .nav__bar p a{
+    margin-right: 100px;
+    color: rgb(237, 237, 237);
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}   
+
+.header_container .nav__bar p a:hover{
+    text-decoration: underline;
+}
+
+.header_container .login__button{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.header_container .login__button a{
+    padding: 10px;
+    color: rgb(30, 30, 30);
+    font-size: 18px;
+    text-decoration: none;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+}
+
+.header_container .login__button a:hover{
+    background-color:rgb(30, 30, 30);
+    color:#f4f4f4;
+}
+
+
+h1 {
+    margin-top: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input, textarea, button {
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#bookList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: start;
+    width: 80%;
+}
+
+.book {
+    background-color: #ffffff;
+    cursor: pointer;
+    margin: 38px 18px 0px 18px;
+    width: 265px;
+    height: 380px;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.book img {
+    max-width: 250px;
+    height: 250px;
+    border-radius: 5px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#bookDetails {
+    display: flex;
+    flex-direction: column;
+    /* align-items: sta; */
+    margin-top: 50px;
+}
+
+
+#bookDetails h2 {
+    margin-top: 20px;
+
+}
+
+#bookDetails p {
+    margin-top: 10px;
+    width: 80%;
+    text-align: center;
+}
+
+
+.for__flex{
+    margin:40px 20px 0 0;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #1B2845;
+    width: 300px;
+    height: 440px;
+    border-radius: 10px;
+    color: aliceblue;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.about__book{
+    margin: 0 auto;
+}
+
+.main__section{
+    display: flex;
+    padding: 0 40px 0 70px;
+}
+
+#bookName, #bookAuthor{
+    border-radius: 7px;
+}
+
+#bookImage{
+    border-radius: 7px;
+}
+
+#bookDescription{
+    border-radius: 7px;
+}
+
+.book__add__button{
+    margin-top: 30px;
+    border-radius: 7px;
+    background-color: rgb(216, 166, 0);
+    color: aliceblue;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;    
+}
+
+.add__book__name{
+    display: flex;
+    justify-content: center;
+    /* margin: 0 20px 0 0; */
+    padding: 0;
+    font-size: 20px;
+}
+
+.add__book__author{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Book</title>
+    <link rel="stylesheet" href="add.css">
+</head>
+<body>
+    <header>
+        <div class="header_container">
+            <a href="../main_page/main.html" class="logo"><img src="../images/images.png" alt="Logo"></a>
+            <input list="bookSuggestions" type="search" class="search" placeholder="Search..." id="searchInput">
+            <datalist id="bookSuggestions"></datalist>
+            <div class="nav__bar">
+                <p><a href="../main_page/main.html">Home</a></p>
+                <p><a href="../add_page/add.html">Add Book</a></p>
+            </div>
+            <div class="login__button">
+                <a href="../index.html">Logout</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="main__section">
+        <div class="for__flex">
+            <h1 class="about__book">Book Collection</h1>
+            <form id="bookForm">
+                <label for="bookName">Book Name:</label>
+                <input type="text" id="bookName" placeholder="Enter book name" required />
+
+                <label for="bookAuthor">Book Author:</label>
+                <input type="text" id="bookAuthor" placeholder="Author" required />
+
+                <label for="bookImage">Book Image URL:</label>
+                <input type="text" id="bookImage" name="bookImage" placeholder="Image URL" required>
+
+                <label for="bookDescription">Book Text:</label>
+                <textarea id="bookDescription" name="bookDescription" required></textarea>
+
+                <button type="submit" class="book__add__button">Add Book</button>
+            </form>
+        </div>
+
+        <div id="bookList"></div>
+    </section>
+
+    <script src="add.js"></script>
+</body>
+</html>
